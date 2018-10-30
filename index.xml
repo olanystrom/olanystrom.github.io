@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Zadeo AB</title>
+    <link>https://olanystrom.github.io/</link>
+    <description>Recent content on Zadeo AB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Oct 2018 11:14:11 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://olanystrom.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>http://example.org/post/test/</link>
+      <link>https://olanystrom.github.io/post/test/</link>
       <pubDate>Tue, 30 Oct 2018 11:14:11 +0100</pubDate>
       
-      <guid>http://example.org/post/test/</guid>
+      <guid>https://olanystrom.github.io/post/test/</guid>
       <description>Testa sida</description>
     </item>
     
