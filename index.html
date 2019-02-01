@@ -5,7 +5,7 @@
 
 <html>
     <head>
-	<meta name="generator" content="Hugo 0.50" />
+	<meta name="generator" content="Hugo 0.53" />
             <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Zadeo AB</title>
@@ -37,7 +37,9 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-    
+
+    <link rel="stylesheet" href="css/leaflet.css" />
+
     
     <link rel="stylesheet" href="css/animate.css">
     
@@ -83,7 +85,7 @@
                     
 
                     
-                    <li><a href="#" data-nav-section="services"><span>Services</span></a></li> 
+                    <li><a href="#" data-nav-section="services"><span>Tjänster</span></a></li> 
                     
 
                     
@@ -178,7 +180,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-left">
-					<h2 class=" left-border to-animate">Services</h2>
+					<h2 class=" left-border to-animate">Tjänster</h2>
 					<div class="row">
 						<div class="col-md-8 subtext to-animate">
 							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
@@ -226,10 +228,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">About</h2>
+					<h2 class="to-animate">Om Oss</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>Zadeo grundades 2017 av Ola Nyström och Johan Nicklasson. De har tidigare drivit konsultverksamheter i egen regi. De har tillsammans 42 års erfaranhet av nätverkskommunikation.</h3>
 						</div>
 					</div>
 				</div>
@@ -240,13 +242,13 @@
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="images/person1.jpg" alt="Person1"></figure>
 						<h3>Ola Nyström</h3>
-						<span class="fh5co-position">CEO &amp; Senior Consultant</span>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<span class="fh5co-position">VD och Senior Konsult</span>
+						<p>Säkerhetsspecialist med goda kunskaper i switching och routing.</p>
 						<ul class="social social-circle">
 						
 							<li><a href="https://github.com/olanystrom/"><i class="icon-github"></i></a></li>
 						
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:ola@zadeo.se"><i class="icon-mail2"></i></a></li>
 						
 							<li><a href="https://www.linkedin.com/in/olanystrom"><i class="icon-linkedin"></i></a></li>
 						
@@ -258,15 +260,33 @@
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="images/person2.jpg" alt="Person2"></figure>
 						<h3>Johan Nicklasson</h3>
-						<span class="fh5co-position">Chairman &amp; Senior Consultant</span>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<span class="fh5co-position">Senior Konsult - Utbildare</span>
+						<p>Routing och switching specialist. Certifierad Cisco-Utbildare.</p>
 						<ul class="social social-circle">
 						
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 						
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:johan@zadeo.se"><i class="icon-mail2"></i></a></li>
 						
 							<li><a href="https://www.linkedin.com/in/jnicklasson/"><i class="icon-linkedin"></i></a></li>
+						
+						</ul>
+					</div>
+				</div>
+			
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person2.jpg" alt="Person2"></figure>
+						<h3>Linus Hedström</h3>
+						<span class="fh5co-position">Tekniskt projektledare. Säljare och rekryterare</span>
+						<p>Certifierad Projektledare med bred teknisk bakgrund.</p>
+						<ul class="social social-circle">
+						
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+						
+							<li><a href="mailto:linus@zadeo.se"><i class="icon-mail2"></i></a></li>
+						
+							<li><a href="https://www.linkedin.com/in/linushedstrom/"><i class="icon-linkedin"></i></a></li>
 						
 						</ul>
 					</div>
@@ -278,62 +298,16 @@
 		
 
 		
-        		<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
-		<div class="fh5co-overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center to-animate">
-					<h2>Stats</h2>
-				</div>
-			</div>
-			<div class="row">
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="89" data-speed="5000" data-refresh-interval="50">89</span>
-						<span class="fh5co-counter-label">Finished projects</span>
-					</div>
-				</div>
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2343409" data-speed="5000" data-refresh-interval="50">2343409</span>
-						<span class="fh5co-counter-label">Lines of code</span>
-					</div>
-				</div>
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="1302" data-speed="5000" data-refresh-interval="50">1302</span>
-						<span class="fh5co-counter-label">Cups of coffee</span>
-					</div>
-				</div>
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<i class="fh5co-counter-icon icon-people to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="52" data-speed="5000" data-refresh-interval="50">52</span>
-						<span class="fh5co-counter-label">Happy clients</span>
-					</div>
-				</div>
-			
-			</div>
-		</div>
-	</section>
-        
 
 		
         		<section id="fh5co-contact" data-section="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Get in touch</h2>
+					<h2 class="to-animate">Kontakta Oss</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>För uppdragsförfrågningar vänligen kontakta oss.</h3>
 						</div>
 					</div>
 				</div>
@@ -343,13 +317,13 @@
 					<h3></h3>
 					<ul class="fh5co-contact-info">
 					
-						<li class="fh5co-contact-address "><i class="icon-home"></i>5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom</li>
+						<li class="fh5co-contact-address "><i class="icon-home"></i>Storgatan 62c <br> 171 52 Solna</li>
 					
-						<li class="fh5co-contact-address "><i class="icon-phone"></i>(123) 465-6789</li>
+						<li class="fh5co-contact-address "><i class="icon-phone"></i>+46 734 23 27 46</li>
 					
-						<li class="fh5co-contact-address "><i class="icon-envelope"></i>info@freehtml5.co</li>
+						<li class="fh5co-contact-address "><i class="icon-envelope"></i>sales@zadeo.se</li>
 					
-						<li class="fh5co-contact-address "><i class="icon-globe"></i><a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></li>
+						<li class="fh5co-contact-address "><i class="icon-globe"></i><a href="https://www.zadeo.se/" target="_blank">zadeo.se</a></li>
 					
 					</ul>
 				</div>
@@ -389,36 +363,9 @@
 			</div>
 		</div>
 		
-        	<div id="map" class="to-animate"></div>
-		
 	</section>
 
         
-
-        
-        		<footer id="footer" role="contentinfo">
-		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
-		<div class="container">
-			<div class="">
-				<div class="col-md-12 text-center">
-					<p>&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<ul class="social social-circle">
-					
-						<li><a href="#twitter"><i class="icon-twitter"></i></a></li>
-					
-						<li><a href="#facebook"><i class="icon-facebook"></i></a></li>
-					
-						<li><a href="#youtube"><i class="icon-youtube"></i></a></li>
-					
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
 
         
 
@@ -438,12 +385,8 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	
-	
-		
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
-		
-	<script src="js/google_map.js"></script>
-	
+	<script src="js/leaflet.js"></script>
+	<script src="js/leaflet-map.js"></script>
 	
 	<script src="js/main.js"></script>
 
